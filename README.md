@@ -4,14 +4,14 @@ CPSC 351 Jiffies Kernel Module Project
 
 ## This assignment will involve designing two kernel modules:
 
-1. Design a kernel module that creates a /procfile named /proc/jiffiesthat reports the current value of
+1. Design a kernel module that creates a /procfile named /proc/jiffies that reports the current value of
 jiffieswhen the /proc/jiffiesfile is read, such as with the command:
 ```
 cat /proc/jiffies
 ```
   Be sure to remove /proc/jiffieswhen the module is removed.
 
-2. Design a kernel module that creates a procfile named /proc/secondsthat reports the number of elapsed
+2. Design a kernel module that creates a procfile named /proc/seconds that reports the number of elapsed
 seconds since the kernel module was loaded. This will involve using the value of jiffies as well as the HZ rate.
 When a user enters the command:
 ```
