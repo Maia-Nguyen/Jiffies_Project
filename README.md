@@ -17,5 +17,5 @@ When a user enters the command:
 ```
 cat /proc/seconds
 ```
-  your kernel module will report the number of seconds that have elapsed since the kernel module was first
+  Your kernel module will report the number of seconds that have elapsed since the kernel module was first
   loaded. Be sure to remove /proc/seconds when the module is removed.
