@@ -1,5 +1,5 @@
 <html>
-  <header>Project One --- JIFFIES</header>
+  <header><b>Project One --- JIFFIES</b></header>
   <body>
   CPSC 351 Jiffies Kernel Module Project  
   This assignment will involve designing two kernel modules:
