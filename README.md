@@ -2,8 +2,6 @@
   <header>Project One --- JIFFIES</header>
   <body>
   CPSC 351 Jiffies Kernel Module Project  
-
-  Project One --- JIFFIES
   This assignment will involve designing two kernel modules:
   1. Design a kernel module that creates a /procfile named /proc/jiffiesthat reports the current value of
   jiffieswhen the /proc/jiffiesfile is read, such as with the command
